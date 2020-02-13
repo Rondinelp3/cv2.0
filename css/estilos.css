@@ -11,7 +11,7 @@
    
 }
 
-.text-right{
+.right{
     background: RED;
 
 }
@@ -54,15 +54,7 @@
     top: 105px    
 }  
 }
-@media(max-width:576px){
-    .cuak{
-        justify-content: center
-    }
-    .texto_perfil{
-        background: black 
-        }
 
-}
 
 @media(min-width:576px){
     .cuak{
@@ -70,7 +62,15 @@
     }
      .texto_perfil{
         background: orange 
+        }   
+
+}
+@media(max-width:576px){
+    .cuak{
+        justify-content: center
+    }
+    .right{
+        top: -64px
         }
-     
 
 }
