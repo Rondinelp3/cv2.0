@@ -54,13 +54,23 @@
     top: 105px    
 }  
 }
-@media(min-width:576px){
+@media(max-width:576px){
     .cuak{
         justify-content: center
     }
     .texto_perfil{
-        background: yellow
-    }
+        background: black 
+        }
 
 }
 
+@media(min-width:576px){
+    .cuak{
+        justify-content: center
+    }
+     .texto_perfil{
+        background: orange 
+        }
+     
+
+}
